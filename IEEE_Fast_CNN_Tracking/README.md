@@ -1,8 +1,4 @@
-# Code for papers
-
-Code and data for reproducibility.
-
-## IEEE_Fast_CNN_Tracking: High Speed Marker Tracking for Flight Tests
+# High Speed Marker Tracking for Flight Tests
 
 Abstract — Flight testing is a mandatory process to ensure safety
 during normal operations and to evaluate an aircraft during its
@@ -32,9 +28,25 @@ The best model is fast enough to enable real-time applications
 in embedded systems and will be used for real detecting and
 tracking in real Flight Tests in the future.
 
+## Code
+
+It is documented in the MAIN_fast_cnn_tracking.ipynb Jupyter notebook. The notebook is to be executed sequentially
+
+## Link to Article
+
+Under review, to be published ...
+
+## Link to data
+
+The saved_data is synthetically generated. If you want to reproduce the exact same results from the paper, please, download it from [Google Drive](https://drive.google.com/file/d/1Us3L7G2hBtgRcqkB1oElKSDdHvJjQo_S/view?usp=sharing). The images from neg_imgs and neg_imgs_tests are also available in the Drive, but they are just random background figures, which have no fiducial markers.
+
+## Bibtex
+
 ```
 @Article{fast_tracking_melo2022,
-    author={Melo, Gabriel Adriano and Maximo, Marcos Ricardo Omena de Albuquerque Maximo and de Castro, Paulo Andre Lima},
+    author={Melo, Gabriel Adriano
+        and Maximo, Marcos Ricardo Omena de Albuquerque Maximo
+        and de Castro, Paulo Andre Lima},
     title={High Speed Marker Tracking for Flight Tests},
     journal={TO BE PUBLISHED},
     year={2022},
@@ -46,20 +58,3 @@ tracking in real Flight Tests in the future.
 }
 ```
 
-## IEEE_vazao_rios: A new approach to river flow forecasting: LSTM and GRU multivariate models
-
-Abstract — Hydroelectric  power  stations  are  responsible  for renewable energy generation, especially in countries with many rivers such as Brazil. It is very important to have good estimates of  the  hydrological  flow  in  order  to  determine  whether thermoelectric  power  plants  should  begin  operation,  an  event that  would  increase  the  costs  of  electricity  and  also  have  a terrible environmental impact. The monthly flow of a river was estimated using two recurrent neural networks techniques: Long-Short Term Memory (LSTM) and Gated Recurrent Unit (GRU). The results were compared with other articles that had the samestructure and used the same data: the Rio Grande river in the Furnas and Camargos dam. 
-
-```tex
-@Article{IEEE_melo2022,
-    author={Adriano de Melo, Gabriel and Sugimoto, Dylan Nakandakari and Tasinaffo, Paulo Marcelo and Moreira Santos, Afonso Henriques and Cunha, Adilson Marques and Vieira Dias, Luiz Alberto},
-    journal={IEEE Latin America Transactions},
-    title={A new approach to river flow forecasting: LSTM and GRU multivariate models},
-    year={2019},
-    volume={17},
-    number={12},
-    pages={1978-1986},
-    url={https://latamt.ieeer9.org/index.php/transactions/article/view/2224/352},
-    doi={10.1109/TLA.2019.9011542}
-}
-```

@@ -30,11 +30,13 @@ tracking in real Flight Tests in the future.
 
 ## Code
 
-It is documented in the MAIN_fast_cnn_tracking.ipynb Jupyter notebook. The notebook is to be executed sequentially
+It is documented in the fast_cnn_tracking.ipynb Jupyter notebook. The notebook is to be executed sequentially
 
 ## Link to Article
 
-Under review, to be published ...
+[Open Access IEEE Latin America Transactions link with video and graphical abstract](https://latamt.ieeer9.org/index.php/transactions/article/view/6941)
+
+[IEEE Xplore Paywall](https://ieeexplore.ieee.org/document/9885171)
 
 ## Link to data
 
@@ -43,18 +45,15 @@ The saved_data is synthetically generated. If you want to reproduce the exact sa
 ## Bibtex
 
 ```
-@Article{fast_tracking_melo2022,
-    author={Melo, Gabriel Adriano
-        and Maximo, Marcos Ricardo Omena de Albuquerque Maximo
-        and de Castro, Paulo Andre Lima},
-    title={High Speed Marker Tracking for Flight Tests},
-    journal={TO BE PUBLISHED},
-    year={2022},
-    volume={TO BE PUBLISHED},
-    number={TO BE PUBLISHED},
-    pages={TO BE PUBLISHED},
-    doi={TO BE PUBLISHED},
-    url={TO BE PUBLISHED}
+@ARTICLE{fast_tracking_melo,
+  author={Melo, Gabriel Adriano and Máximo, Marcos and Castro, Paulo André},
+  journal={IEEE Latin America Transactions}, 
+  title={High Speed Marker Tracking for Flight Tests}, 
+  year={2022},
+  volume={20},
+  number={10},
+  pages={2237-2243},
+  doi={10.1109/TLA.2022.9885171},
+  url={https://latamt.ieeer9.org/index.php/transactions/article/view/6941}
 }
 ```
-

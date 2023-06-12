@@ -32,17 +32,19 @@ The best model is fast enough to enable real-time applications
 in embedded systems and will be used for real detecting and
 tracking in real Flight Tests in the future.
 
+[Open Access IEEE Latin America Transactions link with video and graphical abstract](https://latamt.ieeer9.org/index.php/transactions/article/view/6941)
+
 ```
-@Article{fast_tracking_melo2022,
-    author={Melo, Gabriel Adriano and Maximo, Marcos Ricardo Omena de Albuquerque Maximo and de Castro, Paulo Andre Lima},
-    title={High Speed Marker Tracking for Flight Tests},
-    journal={TO BE PUBLISHED},
-    year={2022},
-    volume={TO BE PUBLISHED},
-    number={TO BE PUBLISHED},
-    pages={TO BE PUBLISHED},
-    doi={TO BE PUBLISHED},
-    url={TO BE PUBLISHED}
+@ARTICLE{fast_tracking_melo,
+  author={Melo, Gabriel Adriano and Máximo, Marcos and Castro, Paulo André},
+  journal={IEEE Latin America Transactions}, 
+  title={High Speed Marker Tracking for Flight Tests}, 
+  year={2022},
+  volume={20},
+  number={10},
+  pages={2237-2243},
+  doi={10.1109/TLA.2022.9885171},
+  url={https://latamt.ieeer9.org/index.php/transactions/article/view/6941}
 }
 ```
 
